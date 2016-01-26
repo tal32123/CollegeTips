@@ -7,7 +7,6 @@
 
     tools:context="com.example.android.collegetips.MainActivity"
 >
-    <!--android:background="#FFE0B2">-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +23,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/mind"/>
         <TextView
@@ -36,7 +34,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/conversation"/>
 
@@ -55,7 +52,6 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="fitXY"
-            android:src="@drawable/fotoloading"
             android:id="@+id/good"/>
         <TextView
             style="@style/TextText"
@@ -66,7 +62,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/organization"/>
         <TextView
@@ -79,7 +74,6 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="fitXY"
-            android:src="@drawable/fotoloading"
             android:id="@+id/study_abroad"/>
         <TextView
             style="@style/TextText"
