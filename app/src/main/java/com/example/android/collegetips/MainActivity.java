@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -96,10 +97,15 @@ private final String convoURL = "https://pixabay.com/static/uploads/photo/2014/0
         intent.setData(Uri.parse("mailto:")); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"tal32123@gmail.com"});
         intent.putExtra(Intent.EXTRA_SUBJECT, "College Tips Tip Submittion");
-        intent.putExtra(Intent.EXTRA_TEXT, "TEST TEXT ");
+        intent.putExtra(Intent.EXTRA_TEXT, getTip());
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
     }
+    public String getTip(){
+        TextView tipSubmittion = (TextView) findViewById(R.id.submittedTip);
+        return tipSubmittion.getText().toString();
+    }
+
 }
 

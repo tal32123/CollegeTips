@@ -26,7 +26,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/mind"
+            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/mind"/>
         <TextView
@@ -38,7 +38,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/convo"
+            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/conversation"/>
 
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="fitXY"
-            android:src="@drawable/good"
+            android:src="@drawable/fotoloading"
             android:id="@+id/good"/>
         <TextView
             style="@style/TextText"
@@ -68,7 +68,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
-            android:src="@drawable/network"
+            android:src="@drawable/fotoloading"
             android:scaleType="fitXY"
             android:id="@+id/organization"/>
         <TextView
@@ -81,7 +81,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="fitXY"
-            android:src="@drawable/studyabroad"
+            android:src="@drawable/fotoloading"
             android:id="@+id/study_abroad"/>
         <TextView
             style="@style/TextText"
@@ -101,7 +101,8 @@
         <EditText
             style="@style/InputTip"
             android:inputType="textMultiLine"
-            android:hint="@string/enter_tip"/>
+            android:hint="@string/enter_tip"
+            android:id="@+id/submittedTip"/>
         <Button
             style="@style/TextText"
             android:text="@string/submit_tip"
