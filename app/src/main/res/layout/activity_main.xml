@@ -4,12 +4,10 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+
     tools:context="com.example.android.collegetips.MainActivity"
-    android:background="#FFE0B2">
+>
+    <!--android:background="#FFE0B2">-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -90,7 +88,7 @@
             style="@style/TextBody"
             android:text="@string/fifth_tip"/>
         <Button
-            style="@style/TextText"
+            style="@style/ButtonText"
             android:id="@+id/moreInfo"
             android:text="@string/more_tips"
             android:layout_marginTop="24dp"
@@ -100,12 +98,15 @@
 
         <EditText
             style="@style/InputTip"
-            android:inputType="textMultiLine"
+            android:inputType="text"
             android:hint="@string/enter_tip"
             android:id="@+id/submittedTip"/>
         <Button
-            style="@style/TextText"
+            style="@style/ButtonText"
             android:text="@string/submit_tip"
-            android:onClick="submitTip"/>
+            android:onClick="submitTip"
+            android:layout_gravity="right"
+            />
+
     </LinearLayout>
 </ScrollView>
