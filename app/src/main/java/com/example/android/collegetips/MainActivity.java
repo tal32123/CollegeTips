@@ -91,6 +91,15 @@ private final String convoURL = "https://pixabay.com/static/uploads/photo/2014/0
             startActivity(intent);
         }
     }
-
+    public void submitTip(View view) {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_EMAIL, new String[]{"tal32123@gmail.com"});
+        intent.putExtra(Intent.EXTRA_SUBJECT, "College Tips Tip Submittion");
+        intent.putExtra(Intent.EXTRA_TEXT, "TEST TEXT ");
+        if (intent.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent);
+        }
+    }
 }
 
