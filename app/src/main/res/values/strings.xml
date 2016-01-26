@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">College Tips</string>
+    <!--This is the first tip -->
+
+    <string name="first_tip_head">Keep an open mind</string>
+    <string name="first_tip">Even small colleges have thousands of students that come from different backgrounds. Not everyone will do the same things you are used to. Keep an open mind to these customs and you might learn something new and make great friends!</string>
+    <string name="second_tip_head">Make friends</string>
+    <string name="second_tip">Don\'t be afraid to talk to people. Everyone is in or has been in the exact same position you are in at one point. Talk to people and make sure to keep in touch!</string>
+    <string name="third_tip_head">Make good choices</string>
+    <string name="third_tip">From calling home, to partying, and all the way to doing homework. You know the values you were raised with. You know right from wrong. If you need help with anything don\'t be afraid to ask for help. Make good choices and you will go far in college and life.</string>
+    <string name="fourth_tip_head">Join an organization</string>
+    <string name="fourth_tip">Organizations can help students grow both academically and socially. In addition, an organization can help students combat homesickness.</string>
+    <string name="fifth_tip_head">Take advantage of every opportunity</string>
+    <string name="fifth_tip">From internships to study abroad, colleges have many opportunities that you can and should take advantage of. Ask your academic advisors, organization leaders, professors, and friends for more information on opportunities that you can take advantage of.</string>
+    <string name="tips">tips</string>
+    <string name="submit_tip">Submit tip</string>
+    <string name="more_tips">For more tips click here.</string>
+    <string name="enter_tip">Enter tip here</string>
+</resources>
